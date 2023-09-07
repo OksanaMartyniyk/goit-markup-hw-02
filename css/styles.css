@@ -7,12 +7,48 @@
     --color-footer: #F4F4FD;
 }
 
-/* header */
-.section-header{
-    color: var(--color-hero-section);
+/* Global style */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-secondary);
+    background-color: var(--color-hero-section);
+    font-size: 16px;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.vissually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* header */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .logo-accent{
     color: var(--color-accent);
+    
 }
 .logo-header{ 
     color: var(--color-primary);
@@ -20,13 +56,16 @@
 
 .nav-link{
     color: var(--color-primary);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .nav-link:hover{
     color: var(--color-hover);
 }
 
 .address-link{
-    color: var(--color-secondary);
+    font-style: normal;
 }
 .address-link:hover{
     color: var(--color-hover);
@@ -39,12 +78,21 @@
 
 .hero-title{
     color: var(--color-hero-section);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-button {
     background-color: var(--color-accent);
     color: var(--color-hero-section);
     cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .hero-button:hover{
     background-color: var(--color-hover);
@@ -54,10 +102,14 @@
 .section-advantages{
     background-color: var(--color-hero-section)
 }
-.advantages-section-title{
+.advantages-title{
     color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.002em;
 }
-.adventages-section-text{ 
+.adventages-text{ 
     color: var(--color-secondary);
 }
 
@@ -65,25 +117,44 @@
 .team-section{
     color: var(--color-footer);
 }
-.team-section-title{
+.our-team-title{
     color: var(--color-primary);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
-.team-section-text{
+.team-title{
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-text{
     color: var(--color-secondary);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Portfolio section */
-.portfolio-section{
-    background-color: var(--color-hero-section);
+.our-portfolio-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
-.portfolio-section-title{
+.portfolio-title{
     color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-.portfolio-section-title{
-    color: var(--color-primary);
-}
-.portfolio-section-text{
+.portfolio-text{
     color:var(--color-primary);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* footer */
@@ -95,4 +166,6 @@
 }
 .footer-text{
     color:var(--color-footer);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
