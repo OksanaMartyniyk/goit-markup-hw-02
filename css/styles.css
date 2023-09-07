@@ -3,11 +3,14 @@
     --color-secondary: #434455;
     --color-accent: #4D5AE5;
     --color-hover: #404BBF;
-    --color-hero-section: #FFF
+    --color-hero-section: #FFF;
     --color-footer: #F4F4FD;
 }
 
 /* header */
+.section-header{
+    color: var(--color-hero-section);
+}
 .logo-accent{
     color: var(--color-accent);
 }
@@ -16,7 +19,7 @@
 }
 
 .nav-link{
-    color: var(--color-primery);
+    color: var(--color-primary);
 }
 .nav-link:hover{
     color: var(--color-hover);
@@ -31,7 +34,7 @@
 
 /* hero section */
 .hero-section{
-    background-color: var(--color-primery);
+    background-color: var(--color-primary);
 }
 
 .hero-title{
@@ -48,35 +51,44 @@
 }
 
 /* Advantages section */
+.section-advantages{
+    background-color: var(--color-hero-section)
+}
 .advantages-section-title{
-    color: var(--color-primery);
+    color: var(--color-primary);
 }
 .adventages-section-text{ 
     color: var(--color-secondary);
 }
 
 /* Team section */
+.team-section{
+    color: var(--color-footer);
+}
 .team-section-title{
-    color: var(--color-primery);
+    color: var(--color-primary);
 }
 .team-section-text{
     color: var(--color-secondary);
 }
 
 /* Portfolio section */
-.portfolio-section-title{
-    color: var(--color-primery);
+.portfolio-section{
+    background-color: var(--color-hero-section);
 }
 .portfolio-section-title{
-    color: var(--color-primery);
+    color: var(--color-primary);
+}
+.portfolio-section-title{
+    color: var(--color-primary);
 }
 .portfolio-section-text{
-    color:var(--color-secondary);
+    color:var(--color-primary);
 }
 
 /* footer */
 .footer{
-    background-color: var(--color-primery);
+    background-color: var(--color-primary);
 }
 .logo-footer{
     color: var(--color-footer);
