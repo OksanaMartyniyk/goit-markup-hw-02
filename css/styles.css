@@ -57,14 +57,17 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.nav-link:hover{
+.nav-link:hover,
+.nav-link:focus{
     color: var(--color-hover);
 }
 
 
 .address-title{
-    color: var(--color-secondary);
     font-style: normal;
+}
+.address-link{
+    color: var(--color-secondary);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -109,7 +112,7 @@ ul{
     color: var(--color-primary);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -122,7 +125,7 @@ ul{
 
 /* Team section */
 .team-section{
-    color: var(--color-footer);
+    background-color: var(--color-footer);
 }
 .our-team-title{
     color: var(--color-primary);
@@ -132,6 +135,9 @@ ul{
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+}
+.team-list{
+    background-color: var(--color-hero-section)
 }
 .team-title{
     color: var(--color-primary);
